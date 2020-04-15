@@ -1,0 +1,10 @@
+version: '2.0'
+services:
+  angular-ui:
+    image: lukhanyokwela/angular-ui
+    ports:
+      - "4200:4200"
+  nestjs-api:
+    image: lukhanyokwela/nestjs-api
+    ports:
+      - "3000:3000"
